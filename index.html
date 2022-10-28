@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" class="sign-up">
+            <h2>Create an Account</h2>
+            <div class="row">
+                <label>
+                    First name
+                    <input name="firstname" type="text">
+                </label>
+                <label>
+                    Last name
+                    <input name="lastname" type="text">
+                </label>
+            </div>
+            <div class="row">
+                <label for="email-input">
+                    <input type="email" name="email" id="email-input">
+                    <p>We'll never share your email with anyone else.</p>
+                </label>
+            </div>
+            <div class="row">
+                <input type="radio" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" value="Female">
+                <label for="female">Female</label>
+            </div>
+            <div class="row">
+                <label for="country-select">Country</label>
+                <label for="city">City</label>
+                <br>
+                <select name="countries" id="country-select">
+                    <option value=""></option>
+                    <option value="UK">UK</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Spain">Spaine</option>
+                </select>
+                <input type="text" id="city">
+            </div>
+            <button>Sign Up</button>
+            <div class="confirm">
+                <p class="confirm">By clicking the 'Sign Up' button, you confirm that you accept our <br>Terms of Use and Privacy Policy</p>
+                <hr class="line">
+            </div>
+            <div class="footer">
+            <p class="account">Have an account?</p>
+            <p class="log in">Log In</p>
+            </div>
+    </form>
+</body>
+</html>

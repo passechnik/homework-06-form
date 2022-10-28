@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    font-family: 'Roboto';
+}
+*, *:before, *::after {
+    box-sizing: border-box;
+}
+input[type=text] {
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 15px 4 px rgba(0,0,0,0.06);
+    width: 245px;
+    height: 38px;
+    border-radius: 5px;
+    
+}
