@@ -8,51 +8,62 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="" class="sign-up">
-            <h2>Create an Account</h2>
-            <div class="row">
-                <label>
-                    First name
-                    <input name="firstname" type="text">
+    <div class="_container">
+        <section class="left">
+            <h2>Create An Account</h2>
+            <div class="left__row">
+                <label class="name" for="name">
+                    First Name
+                    <input type="text" name="firstname" id="name">
                 </label>
-                <label>
-                    Last name
-                    <input name="lastname" type="text">
+                <label class="name" for="">
+                    Last Name 
+                    <input type="text" name="lastname" id="name">
                 </label>
             </div>
-            <div class="row">
-                <label for="email-input">
-                    <input type="email" name="email" id="email-input">
+
+            <div class="left__row">
+                <label for="">
+                    E-mail
+                    <input type="email" name="email">
                     <p>We'll never share your email with anyone else.</p>
                 </label>
             </div>
-            <div class="row">
-                <input type="radio" id="male" value="Male">
-                <label for="male">Male</label>
-                <input type="radio" id="female" value="Female">
-                <label for="female">Female</label>
+
+            <div class="left__row">
+                <label for="">
+                    <input type="radio" name="gender">
+                    Male
+                </label>
+                <label for="">
+                    <input type="radio" name="gender">
+                    Female
+                </label>
             </div>
-            <div class="row">
-                <label for="country-select">Country</label>
-                <label for="city">City</label>
-                <br>
-                <select name="countries" id="country-select">
-                    <option value=""></option>
-                    <option value="UK">UK</option>
-                    <option value="Ukraine">Ukraine</option>
-                    <option value="Spain">Spaine</option>
-                </select>
-                <input type="text" id="city">
+
+            <div class="left__row">
+                <label for="country">
+                    Country
+                    <select name="" id="country">
+                        <option value="UK">UK</option>
+                        <option value="USA">USA</option>
+                        <option value="Ukraine">Ukraine</option>
+                    </select>
+                </label>
+                <label for="city">
+                    City
+                    <input type="text" name="city">
+                </label>
             </div>
-            <button>Sign Up</button>
-            <div class="confirm">
-                <p class="confirm">By clicking the 'Sign Up' button, you confirm that you accept our <br>Terms of Use and Privacy Policy</p>
-                <hr class="line">
-            </div>
-            <div class="footer">
-            <p class="account">Have an account?</p>
-            <p class="log in">Log In</p>
-            </div>
-    </form>
+
+            <button class="left__row">Sign Up</button>
+
+            <p class="center">By clicking the 'Sign Up' button, you confirm that you accept our <br><a href="">Terms of Use</a> and <a href="">Privacy Police</a></p>
+            <hr>
+            <p class="center">Have an account?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="">Log in</a></p>
+        </section>
+    
+        <section class="right"></section>
+    </div>
 </body>
 </html>
